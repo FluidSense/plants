@@ -1,5 +1,3 @@
-import { useState } from "react";
-import logo from "./logo.svg";
 import "./App.css";
 
 function App() {
@@ -65,6 +63,7 @@ function App() {
             alt="placeholder image that should be the Bekk-plantevegg"
             style={{
               marginRight: "-5rem",
+              height: "200px",
             }}
           />
         </article>
@@ -79,6 +78,7 @@ function App() {
             alt="placeholder image that should be my plant"
             style={{
               marginLeft: "-5rem",
+              height: "200px",
             }}
           />
           <p>
