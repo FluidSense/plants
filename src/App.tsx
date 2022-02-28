@@ -14,8 +14,11 @@ function App() {
         <img
           style={{
             borderRadius: "50%",
+            width: "200px",
+            height: "200px",
+            objectFit: "cover",
           }}
-          src="https://picsum.photos/200"
+          src="/mainPlant.jpg"
           alt="placeholder image that should be a stikling"
         />
       </section>
@@ -35,7 +38,7 @@ function App() {
           tåler både mye og lite vann, og klarer seg med middels mengde
           indirekte sollys. Alt i alt en veldig enkel plante ✅
         </p>
-        <article style={{}}>
+        <article>
           <img
             src="https://picsum.photos/400/200?random=1"
             alt="placeholder image that should be the Bekk-plantevegg"
@@ -43,7 +46,7 @@ function App() {
               marginRight: "-5rem",
               maxHeight: "200px",
               float: "right",
-              marginLeft: "5rem",
+              marginLeft: "3rem",
               marginBottom: "2rem",
             }}
           />
@@ -67,13 +70,13 @@ function App() {
         </article>
         <article>
           <img
-            src="https://picsum.photos/400/200?random=2"
-            alt="placeholder image that should be my plant"
+            src="/plantsInWindow.jpg"
+            alt="Multiple plants on a window sill"
             style={{
               marginLeft: "-5rem",
               maxHeight: "200px",
               float: "left",
-              marginRight: "5rem",
+              marginRight: "3rem",
               marginBottom: "2rem",
             }}
           />
