@@ -35,12 +35,18 @@ function App() {
           tåler både mye og lite vann, og klarer seg med middels mengde
           indirekte sollys. Alt i alt en veldig enkel plante ✅
         </p>
-        <article
-          style={{
-            display: "flex",
-            gap: "2em",
-          }}
-        >
+        <article style={{}}>
+          <img
+            src="https://picsum.photos/400/200?random=1"
+            alt="placeholder image that should be the Bekk-plantevegg"
+            style={{
+              marginRight: "-5rem",
+              maxHeight: "200px",
+              float: "right",
+              marginLeft: "5rem",
+              marginBottom: "2rem",
+            }}
+          />
           <p>
             Grønnrennere generelt kommer i fra Afrika, men akkurat denne her er
             mer eksotisk som så. Denne kommer nemlig fra planteveggen på
@@ -58,27 +64,17 @@ function App() {
             blikk og myke fingre ble stiklingen plukket med og sneket ut i
             nattens mørke, til et nytt hjem. Et nytt liv. ✨
           </p>
-          <img
-            src="https://picsum.photos/400/200?random=1"
-            alt="placeholder image that should be the Bekk-plantevegg"
-            style={{
-              marginRight: "-5rem",
-              height: "200px",
-            }}
-          />
         </article>
-        <article
-          style={{
-            display: "flex",
-            gap: "2em",
-          }}
-        >
+        <article>
           <img
             src="https://picsum.photos/400/200?random=2"
             alt="placeholder image that should be my plant"
             style={{
               marginLeft: "-5rem",
-              height: "200px",
+              maxHeight: "200px",
+              float: "left",
+              marginRight: "5rem",
+              marginBottom: "2rem",
             }}
           />
           <p>
